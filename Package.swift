@@ -11,7 +11,7 @@ let package = Package(
         .executable(name: "swiftymocky", targets: ["SwiftyMockyCLI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/MakeAWishFoundation/SwiftyMocky.git", from: "4.0.1"),
+        .package(url: "https://github.com/michal-maciag/SwiftyMocky.git", .branch("master")),
         .package(url: "https://github.com/JohnSundell/ShellOut.git", from: "2.3.0"),
         .package(url: "https://github.com/michal-maciag/XcodeProj.git", .revision("c7d990fbc40a6dc8ba7acd7ddb5227970675dae5")),
         .package(url: "https://github.com/luoxiu/Chalk", .exact("0.0.7")),
@@ -54,8 +54,7 @@ let package = Package(
         .executable(name: "swiftymocky", targets: ["SwiftyMockyCLI"]),
     ],
     dependencies: [
-        // .package(url: "https://github.com/MakeAWishFoundation/SwiftyMocky.git", .branch("develop")),
-        .package(url: "https://github.com/MakeAWishFoundation/SwiftyMocky.git", from: "4.0.0"),
+        .package(url: "https://github.com/michal-maciag/SwiftyMocky.git", .branch("master")),
         .package(url: "https://github.com/JohnSundell/ShellOut.git", from: "2.3.0"),
         .package(url: "https://github.com/luoxiu/Chalk", .exact("0.0.7")),
         .package(url: "https://github.com/kylef/Commander", .exact("0.9.1")),

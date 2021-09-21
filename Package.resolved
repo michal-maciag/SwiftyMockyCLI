@@ -66,11 +66,11 @@
       },
       {
         "package": "swiftymocky",
-        "repositoryURL": "https://github.com/MakeAWishFoundation/SwiftyMocky.git",
+        "repositoryURL": "https://github.com/michal-maciag/SwiftyMocky.git",
         "state": {
-          "branch": null,
-          "revision": "d92b770d9f84fbcbeb68c9a31fb7ff1f0268e0ea",
-          "version": "4.0.1"
+          "branch": "master",
+          "revision": "2f484b89e23ffe99adb4aa1cfd3459343bffae38",
+          "version": null
         }
       },
       {
